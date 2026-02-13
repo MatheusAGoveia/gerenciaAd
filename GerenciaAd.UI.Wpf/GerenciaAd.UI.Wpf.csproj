@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GerenciaAd.Domain\GerenciaAd.Domain.csproj" />
+    <ProjectReference Include="..\GerenciaAd.Application\GerenciaAd.Application.csproj" />
+    <ProjectReference Include="..\GerenciaAd.Infrastructure\GerenciaAd.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
