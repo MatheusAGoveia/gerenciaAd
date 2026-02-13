@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "GerenciaAd.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GerenciaAd.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GerenciaAd.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GerenciaAd.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GerenciaAd.Domain/GerenciaAd.Domain.csproj",
+      "msbuildProject": "../GerenciaAd.Domain/GerenciaAd.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "GerenciaAd.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\matheus.damiao\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\matheus.damiao\\Desktop\\gerenciaAd\\gerenciaAd\\src\\GerenciaAd.Application\\GerenciaAd.Application.csproj",
+      "projectName": "GerenciaAd.Application",
+      "projectPath": "C:\\Users\\matheus.damiao\\Desktop\\gerenciaAd\\gerenciaAd\\src\\GerenciaAd.Application\\GerenciaAd.Application.csproj",
+      "packagesPath": "C:\\Users\\matheus.damiao\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matheus.damiao\\Desktop\\gerenciaAd\\gerenciaAd\\src\\GerenciaAd.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\matheus.damiao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\matheus.damiao\\Desktop\\gerenciaAd\\gerenciaAd\\src\\GerenciaAd.Domain\\GerenciaAd.Domain.csproj": {
+              "projectPath": "C:\\Users\\matheus.damiao\\Desktop\\gerenciaAd\\gerenciaAd\\src\\GerenciaAd.Domain\\GerenciaAd.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

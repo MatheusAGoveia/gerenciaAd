@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:domain="clr-namespace:GerenciaAdConsole.Domain;assembly=GerenciaAd.Domain"
         mc:Ignorable="d"
         Title="Renovação de Conta no Active Directory" 
         Height="700" Width="900"
@@ -28,7 +27,7 @@
             <Setter Property="Padding" Value="0"/>
             <Setter Property="Foreground" Value="{StaticResource TextPrimary}"/>
             <Setter Property="FontWeight" Value="SemiBold"/>
-            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontSize" Value="16"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="GroupBox">
@@ -46,10 +45,7 @@
                                         Background="{StaticResource BackgroundSection}"
                                         Margin="0,0,0,10">
                                     <ContentPresenter ContentSource="Header"
-                                                      Margin="0"
-                                                      FontSize="16"
-                                                      FontWeight="SemiBold"
-                                                      Foreground="{StaticResource TextPrimary}"/>
+                                                      Margin="0"/>
                                 </Border>
                                 <ContentPresenter Grid.Row="1" ContentSource="Content"/>
                             </Grid>
@@ -95,16 +91,94 @@
         </Style>
         
         <!-- Estilos para ComboBox -->
-        <Style TargetType="ComboBox">
-            <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="8"/>
-            <Setter Property="MinHeight" Value="32"/>
-            <Setter Property="Background" Value="#2D2D30"/>
-            <Setter Property="Foreground" Value="{StaticResource TextPrimary}"/>
-            <Setter Property="BorderBrush" Value="{StaticResource BorderColor}"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="FontSize" Value="13"/>
-        </Style>
+       <Style TargetType="ComboBox">
+    <Setter Property="Foreground" Value="{StaticResource TextPrimary}"/>
+    <Setter Property="Background" Value="#2D2D30"/>
+    <Setter Property="BorderBrush" Value="{StaticResource BorderColor}"/>
+    <Setter Property="BorderThickness" Value="1"/>
+    <Setter Property="Padding" Value="6"/>
+    <Setter Property="MinHeight" Value="32"/>
+
+    <Setter Property="Template">
+        <Setter.Value>
+            <ControlTemplate TargetType="ComboBox">
+                <Grid>
+                    <!-- Botão principal -->
+                    <ToggleButton
+                        Name="ToggleButton"
+                        Focusable="False"
+                        IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}">
+
+                        <Border CornerRadius="6"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <Grid>
+                                <ContentPresenter
+                                    Margin="8,0,30,0"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Left"
+                                    Content="{TemplateBinding SelectionBoxItem}" />
+
+                                <Path
+                                    HorizontalAlignment="Right"
+                                    VerticalAlignment="Center"
+                                    Margin="0,0,10,0"
+                                    Fill="White"
+                                    Data="M 0 0 L 4 4 L 8 0 Z"/>
+                            </Grid>
+                        </Border>
+                    </ToggleButton>
+
+                    <!-- Dropdown -->
+                    <Popup
+                        Name="Popup"
+                        Placement="Bottom"
+                        IsOpen="{TemplateBinding IsDropDownOpen}"
+                        AllowsTransparency="True"
+                        Focusable="False"
+                        PopupAnimation="Fade"
+                        PlacementTarget="{Binding RelativeSource={RelativeSource TemplatedParent}}">
+
+                        <Border
+                            Background="#2D2D30"
+                            BorderBrush="{StaticResource BorderColor}"
+                            BorderThickness="1"
+                            CornerRadius="6"
+                            MinWidth="{TemplateBinding ActualWidth}">
+
+                            <ScrollViewer>
+                                <ItemsPresenter/>
+                            </ScrollViewer>
+                        </Border>
+                    </Popup>
+                </Grid>
+
+                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter TargetName="ToggleButton"
+                                Property="BorderBrush"
+                                Value="#0078D4"/>
+                    </Trigger>
+
+                    <Trigger Property="IsEnabled" Value="False">
+                        <Setter Property="Foreground" Value="#808080"/>
+                    </Trigger>
+
+                </ControlTemplate.Triggers>
+
+            </ControlTemplate>
+        </Setter.Value>
+    </Setter>
+</Style>
+
+
+
+
+
         
         <!-- Estilos para Button -->
         <Style TargetType="Button">

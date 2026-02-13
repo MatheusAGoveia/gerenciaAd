@@ -5,9 +5,9 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using System.Windows.Media;
-using GerenciaAdConsole.Application;
-using GerenciaAdConsole.Domain;
-using GerenciaAdConsole.Infrastructure;
+using GerenciaAd.UI.Wpf.Application;
+using GerenciaAd.UI.Wpf.Domain;
+using GerenciaAd.UI.Wpf.Infrastructure;
 
 namespace GerenciaAd.UI.Wpf.ViewModels
 {

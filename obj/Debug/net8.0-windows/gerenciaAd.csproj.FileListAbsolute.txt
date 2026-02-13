@@ -1,0 +1,3 @@
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\obj\Debug\net8.0-windows\GerenciaAd.UI.Wpf\App.baml
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\obj\Debug\net8.0-windows\GerenciaAd.UI.Wpf\App.g.cs
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\obj\Debug\net8.0-windows\gerenciaAd_MarkupCompile.cache

@@ -1,0 +1,12 @@
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\bin\Debug\net8.0\GerenciaAd.Domain.deps.json
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\bin\Debug\net8.0\GerenciaAd.Domain.dll
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\bin\Debug\net8.0\GerenciaAd.Domain.pdb
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\obj\Debug\net8.0\GerenciaAd.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\obj\Debug\net8.0\GerenciaAd.Domain.AssemblyInfoInputs.cache
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\obj\Debug\net8.0\GerenciaAd.Domain.AssemblyInfo.cs
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\obj\Debug\net8.0\GerenciaAd.Domain.csproj.CoreCompileInputs.cache
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\obj\Debug\net8.0\GerenciaAd.Domain.sourcelink.json
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\obj\Debug\net8.0\GerenciaAd.Domain.dll
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\obj\Debug\net8.0\refint\GerenciaAd.Domain.dll
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\obj\Debug\net8.0\GerenciaAd.Domain.pdb
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Domain\obj\Debug\net8.0\ref\GerenciaAd.Domain.dll

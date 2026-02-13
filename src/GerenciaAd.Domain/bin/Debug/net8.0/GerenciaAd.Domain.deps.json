@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GerenciaAd.Domain/1.0.0": {
+        "runtime": {
+          "GerenciaAd.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GerenciaAd.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

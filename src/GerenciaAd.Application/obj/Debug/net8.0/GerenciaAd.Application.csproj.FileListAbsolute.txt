@@ -1,0 +1,16 @@
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\bin\Debug\net8.0\GerenciaAd.Application.deps.json
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\bin\Debug\net8.0\GerenciaAd.Application.dll
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\bin\Debug\net8.0\GerenciaAd.Application.pdb
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\bin\Debug\net8.0\GerenciaAd.Domain.dll
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\bin\Debug\net8.0\GerenciaAd.Domain.pdb
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\GerenciaAd.Application.csproj.AssemblyReference.cache
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\GerenciaAd.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\GerenciaAd.Application.AssemblyInfoInputs.cache
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\GerenciaAd.Application.AssemblyInfo.cs
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\GerenciaAd.Application.csproj.CoreCompileInputs.cache
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\GerenciaAd.Application.sourcelink.json
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\Gerencia.7B6F7AA5.Up2Date
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\GerenciaAd.Application.dll
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\refint\GerenciaAd.Application.dll
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\GerenciaAd.Application.pdb
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\src\GerenciaAd.Application\obj\Debug\net8.0\ref\GerenciaAd.Application.dll

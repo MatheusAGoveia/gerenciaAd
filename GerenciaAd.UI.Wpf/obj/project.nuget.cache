@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "1//0SfEkXmtDiOQ3a2zv+aLcvmn68fQNJtm5IUk09ixq/iHeubY06L6pWUmgGet3k8X1zJj7aqVC5cpqpt6hdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matheus.damiao\\Desktop\\gerenciaAd\\gerenciaAd\\GerenciaAd.UI.Wpf\\GerenciaAd.UI.Wpf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matheus.damiao\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\matheus.damiao\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\matheus.damiao\\.nuget\\packages\\system.directoryservices\\8.0.0\\system.directoryservices.8.0.0.nupkg.sha512",
+    "C:\\Users\\matheus.damiao\\.nuget\\packages\\system.directoryservices.accountmanagement\\8.0.0\\system.directoryservices.accountmanagement.8.0.0.nupkg.sha512",
+    "C:\\Users\\matheus.damiao\\.nuget\\packages\\system.directoryservices.protocols\\8.0.0\\system.directoryservices.protocols.8.0.0.nupkg.sha512",
+    "C:\\Users\\matheus.damiao\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
