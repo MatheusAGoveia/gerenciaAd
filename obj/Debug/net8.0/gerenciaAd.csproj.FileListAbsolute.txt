@@ -1,0 +1,4 @@
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\obj\Debug\net8.0\gerenciaAd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\obj\Debug\net8.0\gerenciaAd.AssemblyInfoInputs.cache
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\obj\Debug\net8.0\gerenciaAd.AssemblyInfo.cs
+C:\Users\matheus.damiao\Desktop\gerenciaAd\gerenciaAd\obj\Debug\net8.0\gerenciaAd.csproj.CoreCompileInputs.cache
